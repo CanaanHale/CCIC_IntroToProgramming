@@ -72,17 +72,15 @@ void ball(){
   ballY = ballY + ballSpeedY;
   rect(ballX,ballY,20,20);
   if(ballX == 1180){
-    ballSpeed = ballSpeed *- 1;
+ println("Player One Scored");
     }else if(ballX == 0){
-      ballSpeed = ballSpeed *-1;
+   println("Player Two Scored");
     }
     if(ballY == 580){
       ballSpeedY = ballSpeedY *- 1;
     } else if(ballY == 0){
         ballSpeedY = ballSpeedY *- 1;
-      }
-    
-    
+      } 
   stroke(1);
   
   
